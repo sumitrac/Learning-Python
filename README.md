@@ -1,1 +1,1 @@
-# Learning Python through pratice actvities. 
+# Learning Python 
