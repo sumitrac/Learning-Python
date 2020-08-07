@@ -1,0 +1,23 @@
+print(" --------------------")
+print("| Describe your state |")
+print(" --------------------")
+
+# store the name of a state in the variable state_name
+state_name = input("Which state do you live at?")
+
+# use string interpolation and the method capitalize to output the state_name in a different string
+print(f"{state_name.capitalize()} is a nice place to live!\n")
+
+describe = input(f'Describe {state_name.capitalize()} in one word:')
+print(f"You're certainly right to say that {state_name.capitalize()} is {describe}.\n\n")
+
+print("  --------------")
+print("| true or false |")
+print(" ---------------")
+# store a value in the variables value_1 and value_2
+value_1 = "2"
+value_2 = "hello"
+
+# use string interpolation and the method capitalize to output whether or not the values are digits.
+print(f"True or False? The value {value_1} is a digit: {value_1.isdigit()}")
+print(f'True or False? The value {value_2} is a digit: {value_2.isdigit()}')
