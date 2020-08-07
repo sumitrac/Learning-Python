@@ -1,0 +1,52 @@
+# Practice-one 
+
+# the value of 5 is assigned to the variable named x
+x = 5
+# the current value of x (5) is added to 1
+# that sum is then assigned to the variable named x
+x = x + 1
+
+print("x =", x) 
+# => x = 6 
+
+
+# Practice-two 
+
+# the value of 1 is assigned to the variable named x
+x = 1
+# the value stored in x is assigned to y
+# note: this does not mean that x and y will always
+# store the same value
+y = x
+# the value of 3 is assigned to the variable named x
+x = 3
+# note: y still holds the value of 1
+
+print("x =", x)
+print("y =", y)
+
+# => x = 3
+# => y = 1
+
+
+# Practice-two 
+
+# the value of "Rosa" is assigned to the variable named dog_name
+dog_name = "Rosa"
+# the value of "Raquel" is assigned to the variable named cat_name
+cat_name = "Raquel"
+# the value of 7 is assigned to the variable named dog_age
+dog_age  = 7
+# the value of 11 is assigned to the variable named cat_age
+cat_age  = 11
+
+print("The dog named", dog_name, "is", dog_age, "years old")
+print("The cat named", cat_name, "is", cat_age, "years old")
+
+# => The dog named Rosa is 7 years old
+# => The cat named Raquel is 11 years old
+
+
+
+
+
