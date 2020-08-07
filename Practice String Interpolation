@@ -1,0 +1,8 @@
+# store the name of a state in the variable state_name
+state_name = input("Which state do you live at?")
+
+# use string interpolation and the method capitalize to output the state_name in a different string
+print(f"{state_name.capitalize()} is a nice place to live!\n")
+
+describe = input(f'Describe {state_name.capitalize()} in one word:')
+print(f"You're certainly right to say that Oregon is {describe}.")
